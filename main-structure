@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our project</title>
+        <link>
+    </head>
+    <body>
+        <header>
+            <img class="logo">
+            <nav>
+                <a>Home</a>
+                <a>About</a>
+                <a>Ingredients</a>
+                <a>Menu</a>
+                <a>Reviews</a>
+                <a>Reservations</a>
+                <a></a>
+                <a></a>
+            </nav>
+        </header>
+        <main>
+            <section class="mSection">
+                <h1>the right ingredients for the right food</h1><br>
+                <img><br>
+                <button class= "mSectionButton">Book a table </button>
+                <button class = "mSectionButton">See the menu</button>
+            </section><br>
+
+            <section class = "promo">
+                <h2 class="UsualHeader">Just the right food</h2><br>
+                <p class="UsualText">If you've been to one of our restaurants, you've seen - and 
+                    tasted - what keeps our customer coming back for more.
+                    Perfect materials and freshly baked food, delicius Lambda 
+                    cakes, muffins, and gourmet coffees make us hard to resist! 
+                    Stop on today and check us cut!
+                </p><br>
+                <img>
+            </section> <br>
+
+            <section class="ingredients">
+                <h2 class="UsualHeader">Fine ingredients</h2> <br>
+                <p class="UsualText">
+                    If you've been to one of our restaurants, you've seen - and 
+                    tasted - what keeps our customer coming back for more.
+                    Perfect materials and freshly baked food, delicius Lambda 
+                    cakes, muffins, and gourmet coffees make us hard to resist! 
+                    Stop on today and check us cut!
+                </p> <br>
+                <img>
+                <img>
+                <img>
+            </section> <br>
+
+            <section class = "menuSection">
+                <section class = "appetizers">
+                    <h2 class ="MenuHeader">Appetizers</h2>
+                </section>
+                <section class="starters">
+                    <h2 class ="MenuHeader">Starters</h2>
+                </section>
+                <section class="salads">
+                    <h2 class ="MenuHeader">Salads</h2>
+                </section>
+                <section class="mainDishes">
+                    <h2 class ="MenuHeader">Main Dishes</h2>
+                </section>
+            </section> <br>
+
+            <section class="GuestReviews">
+                <h2 class="UsualHeader">Guest Reviews</h2><br>
+                <img>
+                <p class="UsualText">If you've been to one of our restaurants, you've seen - and 
+                    tasted - what keeps our customer coming back for more.
+                    Perfect materials and freshly baked food, delicius Lambda 
+                    cakes, muffins, and gourmet coffees make us hard to resist! 
+                    Stop on today and check us cut!</p>
+            </section><br>
+
+            <section class="bookFormSection">
+                <form>
+                    <input type="text">
+                    <input type="text"><br>
+                    <input type="data">
+                    <input type=""><br>
+                    <input type="button" value = "Book now!" class = "formButton">
+                </form>
+            </section><br>
+        </main>
+        <footer>
+            <section class="about">
+                <h3>section one</h3>
+                <img>
+                <p>text one</p>
+            </section>
+            <section class="openingHours">
+                <h3>Opening hours</h3>
+                <img>
+                <p>text <br>two</p>
+            </section>
+            <section class= "ourLocation">
+                <h3>Our Location</h3>
+                <img>
+                <p>text<br>three</p>
+            </section>
+        </footer>
+    </body>
+</html>
