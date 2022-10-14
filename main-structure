@@ -2,31 +2,30 @@
 <html>
     <head>
         <title>Our project</title>
-        <link>
+        <link href="pageStyles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
             <img class="logo">
             <nav>
-                <a>Home</a>
-                <a>About</a>
-                <a>Ingredients</a>
-                <a>Menu</a>
-                <a>Reviews</a>
-                <a>Reservations</a>
+                <a href ="#homeSection">Home</a>
+                <a href ="#aboutSection">About</a>
+                <a href ="#ingSection">Ingredients</a>
+                <a href ="#mnuSection">Menu</a>
+                <a href ="#reviewsSection">Reviews</a>
+                <a href ="#reservationSection">Reservations</a>
                 <a></a>
                 <a></a>
             </nav>
-        </header>
-        <main>
-            <section class="mSection">
-                <h1>the right ingredients for the right food</h1><br>
-                <img><br>
+            <section class="promo" id="homeSection">
+                <h1 class="promoHeader">the right ingredirents<br>for the right food</h1>
+                <img class="deco" href = "РПИ-Фоны-и-др/Decoration.png"><br>
                 <button class= "mSectionButton">Book a table </button>
                 <button class = "mSectionButton">See the menu</button>
             </section><br>
-
-            <section class = "promo">
+        </header>
+        <main>            
+            <section class = "about" id="aboutSection">
                 <h2 class="UsualHeader">Just the right food</h2><br>
                 <p class="UsualText">If you've been to one of our restaurants, you've seen - and 
                     tasted - what keeps our customer coming back for more.
@@ -37,7 +36,7 @@
                 <img>
             </section> <br>
 
-            <section class="ingredients">
+            <section class="ingredients" id="ingSection">
                 <h2 class="UsualHeader">Fine ingredients</h2> <br>
                 <p class="UsualText">
                     If you've been to one of our restaurants, you've seen - and 
@@ -46,27 +45,33 @@
                     cakes, muffins, and gourmet coffees make us hard to resist! 
                     Stop on today and check us cut!
                 </p> <br>
-                <img>
-                <img>
-                <img>
+                <div>
+                    <img>
+                    <img>
+                    <img>
+                </div>               
             </section> <br>
 
-            <section class = "menuSection">
-                <section class = "appetizers">
-                    <h2 class ="MenuHeader">Appetizers</h2>
-                </section>
-                <section class="starters">
-                    <h2 class ="MenuHeader">Starters</h2>
-                </section>
-                <section class="salads">
-                    <h2 class ="MenuHeader">Salads</h2>
-                </section>
-                <section class="mainDishes">
-                    <h2 class ="MenuHeader">Main Dishes</h2>
-                </section>
+            <section class = "menuSection" id="mnuSection">
+                <div>
+                    <section class = "appetizers">
+                        <h2 class ="MenuHeader">Appetizers</h2>
+                    </section>
+                    <section class="starters">
+                        <h2 class ="MenuHeader">Starters</h2>
+                    </section>
+                </div>
+                <div>
+                    <section class="salads">
+                        <h2 class ="MenuHeader">Salads</h2>
+                    </section>
+                    <section class="mainDishes">
+                        <h2 class ="MenuHeader">Main Dishes</h2>
+                    </section>
+                </div>
             </section> <br>
 
-            <section class="GuestReviews">
+            <section class="GuestReviews" id="reviewsSection">
                 <h2 class="UsualHeader">Guest Reviews</h2><br>
                 <img>
                 <p class="UsualText">If you've been to one of our restaurants, you've seen - and 
@@ -76,7 +81,7 @@
                     Stop on today and check us cut!</p>
             </section><br>
 
-            <section class="bookFormSection">
+            <section class="bookFormSection" id="reservationSection">
                 <form>
                     <input type="text">
                     <input type="text"><br>

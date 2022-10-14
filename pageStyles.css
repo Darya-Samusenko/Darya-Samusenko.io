@@ -1,0 +1,37 @@
+button.mSectionButton{
+    color:#1c1715;
+    text-align:center;
+}
+
+img.deco{
+    align-self: center;
+}
+
+h1.promoHeader{
+    color: #f5f5f5;
+    text-align:center;
+    font-family:'YesevaOne';
+}
+
+h2.UsualHeader{
+    color:#ffffff;
+    text-align:center;
+}
+
+h2.MenuHeader{
+    color:#cc9900;
+    text-align:center;
+}
+
+header{
+    background-image: "РПИ-Фоны-и-др/Bg.png";
+}
+
+section.about{
+    background-image: "РПИ-Фоны-и-др/background.png", "РПИ-Фоны-и-др/pattern.png";
+}
+
+p.UsualText{
+    text-align:center;
+    font-family:'Lato Regular';
+}
