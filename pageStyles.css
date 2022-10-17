@@ -31,8 +31,23 @@ section.about{
     background-image: url("E:/РПИ-Фоны-и-др/background.png");
 }
 
+section.GuestReviews{
+    width:100%;
+    background-image: url("E:/РПИ-Фоны-и-др/bgRev.png");
+}
+
 div.aboutbg{
     background-image: url("E:/РПИ-Фоны-и-др/pattern.png");
+}
+
+div.aboutdiv {
+    width:50%;
+}
+
+div.innerReview{
+    width:50%;
+    background-image: url("E:/РПИ-Фоны-и-др/bgrevText.png");
+    margin-left:25%;
 }
 
 p.UsualTextDark{
@@ -50,7 +65,8 @@ p.UsualTextLight{
 }
 
 img.deco{
-    align-items: center;
+    margin-left: 25%;
+    width: 50%;
 }
 
 img.aboutdish{
@@ -58,5 +74,12 @@ img.aboutdish{
 }
 
 img.aboutCook{
-    align-items: center;
+    margin-left: 50%;
+}
+
+a{
+    color:#fff;
+    text-align: center;
+    font-family:'GentiumBookBasic Gold';
+    font-size:1.3em;
 }
