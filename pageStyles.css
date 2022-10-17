@@ -48,3 +48,15 @@ p.UsualTextLight{
     color: #f0f0f0;
     font-family:'Lato Regular';
 }
+
+img.deco{
+    align-items: center;
+}
+
+img.aboutdish{
+    width:50%;
+}
+
+img.aboutCook{
+    align-items: center;
+}
