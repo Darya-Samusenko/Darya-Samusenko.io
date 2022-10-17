@@ -24,14 +24,23 @@ h2.MenuHeader{
 }
 
 header{
-    background-image: "E:/РПИ-Фоны-и-др/Bg.png";
+    background-image: url("E:/РПИ-Фоны-и-др/Bg.png");
 }
 
 section.about{
-    background-image: "E:/РПИ-Фоны-и-др/background.png", "E:/РПИ-Фоны-и-др/pattern.png";
+    background-image: url("E:/РПИ-Фоны-и-др/background.png"), url("E:/РПИ-Фоны-и-др/pattern.png");
 }
 
-p.UsualText{
+p.UsualTextDark{
+    font-size: 1.0em;
     text-align:center;
+    color: #000;
+    font-family:'Lato Regular';
+}
+
+p.UsualTextLight{
+    font-size: 1.0em;
+    text-align:center;
+    color: #f0f0f0;
     font-family:'Lato Regular';
 }
