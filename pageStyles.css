@@ -28,7 +28,11 @@ header{
 }
 
 section.about{
-    background-image: url("E:/РПИ-Фоны-и-др/background.png"), url("E:/РПИ-Фоны-и-др/pattern.png");
+    background-image: url("E:/РПИ-Фоны-и-др/background.png");
+}
+
+div.aboutbg{
+    background-image: url("E:/РПИ-Фоны-и-др/pattern.png");
 }
 
 p.UsualTextDark{
