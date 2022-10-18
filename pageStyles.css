@@ -11,6 +11,16 @@ h1.promoHeader{
     color: #f5f5f5;
     text-align:center;
     font-family:'YesevaOne';
+    font-size:4em;
+}
+
+img.decoPromo{
+    size: 100%;
+    margin-left: 40%;
+}
+
+section.promo div{
+    width:100%;
 }
 
 h2.UsualHeader{
@@ -25,15 +35,22 @@ h2.MenuHeader{
 
 header{
     background-image: url("E:/РПИ-Фоны-и-др/Bg.png");
+    background-size: 100%;
+    width: 100%;
+    height:0.33%;
 }
 
 section.about{
     background-image: url("E:/РПИ-Фоны-и-др/background.png");
+    width: 100%;
 }
 
 section.GuestReviews{
     width:100%;
     background-image: url("E:/РПИ-Фоны-и-др/bgRev.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    height:84.8%;
 }
 
 div.aboutbg{
@@ -67,6 +84,7 @@ p.UsualTextLight{
 img.deco{
     margin-left: 25%;
     width: 50%;
+    size: 100%;
 }
 
 img.aboutdish{
@@ -77,9 +95,15 @@ img.aboutCook{
     margin-left: 50%;
 }
 
+img.logo{
+    width:0.2%;
+}
+
 a{
     color:#fff;
     text-align: center;
     font-family:'GentiumBookBasic Gold';
+    font-style: normal;
+    font-weight: 100;
     font-size:1.3em;
 }
