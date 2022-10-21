@@ -1,10 +1,16 @@
+.middle{
+    text-align: center;
+}
+
 button.mSectionButton{
     color:#1c1715;
     text-align:center;
 }
 
 img.deco{
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1.promoHeader{
@@ -49,8 +55,8 @@ section.GuestReviews{
     width:100%;
     background-image: url("E:/РПИ-Фоны-и-др/bgRev.png");
     background-size: 100%;
-    background-repeat:no-repeat;
-    height:84.8%;
+    background-repeat: no-repeat;
+    height:100%;
 }
 
 div.aboutbg{
@@ -61,10 +67,19 @@ div.aboutdiv {
     width:50%;
 }
 
-div.innerReview{
-    width:50%;
+section.innerReview{
+    display:block;
+    width:48.125%;
+    height:73.48%;
+    padding-top:6.25%;
+    padding-bottom: 6.25%;
+    padding-left:25.9375%;
+    padding-right: 25.9375%;
     background-image: url("E:/РПИ-Фоны-и-др/bgrevText.png");
-    margin-left:25%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 48.125% 73.48% ;
+    vertical-align: middle;
 }
 
 p.UsualTextDark{
@@ -81,12 +96,6 @@ p.UsualTextLight{
     font-family:'Lato Regular';
 }
 
-img.deco{
-    margin-left: 25%;
-    width: 50%;
-    size: 100%;
-}
-
 img.aboutdish{
     width:50%;
 }
@@ -96,7 +105,7 @@ img.aboutCook{
 }
 
 img.logo{
-    width:0.2%;
+    width:5%;
 }
 
 a{
@@ -106,4 +115,51 @@ a{
     font-style: normal;
     font-weight: 100;
     font-size:1.3em;
+}
+
+br{
+    height:0%;
+}
+
+footer{
+    background-color:#191919;
+}
+
+section.footersec{
+    width:23.125%;
+    height:68.125%;
+    padding-top: 3.25%;
+    text-align:center;
+    display:inline-block;
+}
+
+div.container{
+    text-align:center;
+}
+
+img.footerDiv{
+    width: 62.16%;
+}
+
+p.ftText{
+    font-family:'OpenSans';
+    font-size:16px;
+    color:#fff;
+}
+
+h3{
+    color:#fff;
+    font-family: 'YesevaOne';
+    font-size:21px;
+}
+
+img.bookimg{
+    text-align:end;
+    width:20%;
+}
+
+div.formdiv{
+    display:inline-block;
+    width:49%;
+    margin:0%;
 }
