@@ -1,220 +1,545 @@
-/* потом надо будет отсортировать по местам 
-попробую сбросить стили*/
+body {
+    width: 1600px;
+}
+/* Header */
 
-*{
-    margin:0;
-    padding:0;
+header {
+    background-image: url(../РПИ-Фоны-и-др/images/BgTop.png);
+    height:750px;
 }
 
-.middle {
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 80%;
+    position: relative;
+    left:150px;
+}
+
+.nav-item0 {
+    font-family: 'Yeseva One', cursive;
+    color: rgba(255,255,255,255);
+    font-size: 46px;
+    flex-basis:550px ;
+}
+
+.nav-item7 {
+    height: 16px;
+    filter: invert(70%) sepia(56%) saturate(4415%) hue-rotate(14deg) brightness(95%) contrast(101%);
+}
+
+.nav-item8 {
+    height: 16px;
+    filter: invert(70%) sepia(56%) saturate(4415%) hue-rotate(14deg) brightness(95%) contrast(101%);
+}
+
+.nav-item9 {
+    height: 16px;
+    filter: invert(70%) sepia(56%) saturate(4415%) hue-rotate(14deg) brightness(95%) contrast(101%);
+}
+
+
+.navbar-container a:visited {
+    text-decoration: none;
+    font-family: 'GentiumBookBasic';
+    font-weight: bold;
+    font-size: 21px;
+    color:rgba(255,255,255,255) ;
+    
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'GentiumBookBasic';
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(255,255,255,255);
+}
+
+a:hover {
+    background-color: rgba(204,153,0,0.7);
+} 
+
+/* Landing Page */
+
+.landing-page-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 1fr 1fr;
+
+}
+.landing-page-item1{
+    grid-column: span 2;
+    font-family: 'Yeseva One', cursive;
+    color: rgba(255,255,255,255);
+    font-size: 90px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.landing-page-item2{
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+
+}
+.landing-page-item3 {
+    font-family: 'Lato';
+    font-size: 18px;
+    color: rgba(255,255,255,255);
+    align-self: center;
+    justify-self: end ;
+    position: relative;
+    left: -50px;
+    top: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+
+}
+.landing-page-item4{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: rgba(255,255,255,255);
+    align-self: center;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    background-color: rgba(255,255,255, 0.3);
+    border: none;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+
+}
+/* Right food section */
+
+.right-food-container {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px;
+    height: 700px;
+    align-items: center;
+    justify-items: center;
+    background-image: url(..\РПИ-Фоны-и-др/images/Section_Background.png);
+}
+
+
+.right-food-item1 {
+    grid-row: 2;
+    grid-column: 2;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: rgba(204,153,0,255);
+    text-align: center;
+}
+.right-food-item2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.right-food-item3 {
+    grid-column: 2;
+    grid-row: 4;
+    font-family: Lato;
+    font-size: 16px;
+    width: 90%;
+    color: rgba(76,76,76,255);
+    border: 30px;
+    line-height: 30px;
     text-align: center;
 }
 
-button.mSectionButton {
-    color: #1c1715;
+.right-food-item4{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.right-food-item5 {
+    grid-column: -1;
+    grid-row: 1/-1;
+    align-self: start;
+    justify-self: start;
+    position: relative;
+    right: 150px;
+}
+
+/* Ingrediedts-section */
+
+.ingredients {
+    background-image: url(../РПИ-Фоны-и-др/images/BgIng.png);
+    display: grid;
+    grid-template-columns: 50% 550px 1fr;
+    grid-template-rows: 1fr 500px 1fr;
+    height:750px;
+
+}
+
+.ingredients-container {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    align-items: center ;
+
+}
+
+.ingredients-item1 {
+    font-family: 'YesevaOne';
+    font-size: 	36px;
+    color: rgba(255,255,255,255);
+}
+
+.ingredients-item3{
+    font-family: 'Lato';
+    font-size: 	16px;
+    color: rgba(255,255,255,255);
+    width: 80%;
+    line-height: 25px;
     text-align: center;
 }
 
-img.deco {
+.ingredients-item4{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ingredients-item4 img {
+    background-color: #FFFFFF;
+    height: 100px;
+    border-radius:50%;
+    width: 100px;
+    border: 3px solid #949494;
+}
+
+.ingredients-item4-first{
+    position: relative;
+    left: -50px;
+}
+
+.ingredients-item4-third{
+    position: relative;
+    left: 50px;
+}
+
+/* Menu section */
+
+.menu-container {
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    grid-template-columns: 1fr 500px 1fr 500px 1fr;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../РПИ-Фоны-и-др/images/Section_Background_2.png);
+    height: 1000px;
+}
+
+.menu-item1{
+    grid-row: 2;
+    grid-column: 2;
+    position: relative;
+    top: -100px;
+}
+
+.menu-item2 {
+    grid-row: 3;
+    grid-column: 2;
+    position: relative;
+    top: -100px;
+}
+
+.menu-item3 {
+    grid-column: 4;
+    grid-row: 2;
+    position: relative;
+    top: -100px;
+}
+
+.menu-item4 {
+    grid-column: 4;
+    grid-row: 3;
+    position: relative;
+    top: -200px;
+}
+
+.menu-container h2 {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    font-style: 36px;
+    color: rgba(204,153,0,255);
+}
+
+.tzatzyki-box {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', italic;
+
+}
+
+.water-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.first-item {
+    width: 33%;
+    font-size: 21px;
+    text-align: left;
+    color: rgba(204,153,0,255);
+
+    border-bottom: 1px inset rgba(204,153,0,0.4);
+}
+.second-item {
+    width: 66%;
+    font-size: 21px;
+    text-align: end;
+
+    color: rgba(204,153,0,255);
+    border-bottom: 1px inset rgba(204,153,0,0.4);
+}
+
+.third-item{
+    font-size: 16px;
+}
+/* Guest Reviews */
+
+.guest-reviews {
+    background-image: url(../РПИ-Фоны-и-др/images/BgIng.png);
+    height: 750px;
+    display: grid;
+    grid-template-columns:1fr 800px 1fr;
+    grid-template-rows:  1fr 500px 1fr;
+}
+
+
+.guest-reviews-container {
+    grid-row: 2;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.guest-reviews-item1{
+    font-family: 'YesevaOne';
+    font-size: 36px;
+    color: rgba(255,255,255,255);
+}
+
+.guest-reviews-item3{
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,255);
+    width: 75%;
+    text-align: center;
+}
+
+/* Second right food */
+
+.right-food-middle-container {
+    display: grid;
+    grid-template-columns: 1fr 25% 25% 550px 1fr;
+    grid-template-rows:1f 550px 1fr;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    background-image: url(../РПИ-Фоны-и-др/images/Section_Background.png);
+}
+
+.right-food-middle-item1{
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: rgba(204,153,0,255);
+}
+
+.right-food-middle-item2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.right-food-middle-item3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: rgba(204,153,0,255);
+    text-align: center;
+    align-self: start;
+}
+
+.right-food-middle-item4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.right-food-middle-item5 {
+    font-family: 'Lato';
+    font-size: 16px;
+    width:85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.right-food-middle-item6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-gap:20px;
+    position: relative;
+    top: 25px;
+}
+
+.right-food-middle-item6 label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgba(204,153,0,255);
+    font-size: 14px;
+}
+
+.right-food-middle-item6 input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.right-food-middle-item6-form1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.right-food-middle-item6-form2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.right-food-middle-item6-form3{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.right-food-middle-item6-form4 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.right-food-middle-item7 {
+    position: relative;
+    top: 50px;
+    left: 175px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgba(255,255,255,255);
+    background-color: rgba(204,153,0,255);
+    border: none;
+    padding: 10px 67px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.right-food-middle-items {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+/* footer */
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 2;
+    grid-column: 2;
+    justify-items: center;
+    align-items: center;
+    background-color: #000000;
+    color:  white;
+}
+
+footer h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1.promoHeader {
-    color: #f5f5f5;
-    text-align: center;
-    font-family: 'YesevaOne';
-    font-size: 4em;
-}
-
-img.decoPromo {
-    size: 100%;
-    margin-left: 40%;
-}
-
-section.promo div {
-    width: 100%;
-}
-
-h2.UsualHeader {
-    color: #ffffff;
-    text-align: center;
-}
-
-h2.MenuHeader {
-    color: #cc9900;
-    text-align: center;
-}
-
-header {
-    background-image: url("E:/РПИ-Фоны-и-др/Bg.png");
-    background-size: 100%;
-    width: 100%;
-    height: 0.33%;
-}
-
-section.about {
-    background-image: url("E:/РПИ-Фоны-и-др/background.png");
-    width: 100%;
-}
-
-section.GuestReviews {
-    display: flex;
-    width: 100%;
-    background-image: url("E:/РПИ-Фоны-и-др/bgRev.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 400px;
-}
-
-div.aboutbg {
-    background-image: url("E:/РПИ-Фоны-и-др/pattern.png");
-}
-
-div.aboutdiv {
-    display: inline-block;
-    width: 50%;
-}
-
-section.innerReview {
-    text-align: center;
-    width: 48.125%;
-    height: 73.48%;
-    margin: 6.25% 25.9375% 6.25% 25.9375%;
-    /* padding-top:6.25%;
-    padding-bottom: 6.25%;
-    padding-left:25.9375%;
-    padding-right: 25.9375%;*/
-    background-image: url("E:/РПИ-Фоны-и-др/bgrevText.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: 48.125% 73.48% ;*/
-}
-
-p.UsualTextDark {
-    font-size: 1.0em;
-    text-align: center;
-    color: #000;
-    font-family: 'Lato Regular';
-}
-
-p.UsualTextLight {
-    font-size: 1.0em;
-    text-align: center;
-    color: #f0f0f0;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-family: 'Lato Regular';
-}
-
-img.aboutdish {
-    display: inline-block;
-    width: 40%;
-}
-
-img.aboutCook {
-    width: 20%;
-    margin-left: 43%;
-}
-
-img.logo {
-    width: 5%;
-}
-
-a {
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    font-family: 'GentiumBookBasic Gold';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 1.3em;
-}
-
-br {
-    height: 0%;
-}
-
-footer {
-    background-color: #191919;
-    display:flex;
-}
-
-section.footersec {
-    width: 23.125%;
-    height: 68.125%;
-    padding: 3.25% 0.9375% 3.125% 0.9375%;
-    text-align: center;  
-    /*надо сделать выравнивание по высоте, чтобы заголовки были на одном уровне*/
-    display: inline-block;
-}
-
-div.container {
-    text-align: center;
-}
-
-img.footerDiv {
-    width: 62.16%;
-}
-
-p.ftText {
-    font-family: 'OpenSans';
+footer p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #fff;
-}
 
-h3 {
-    color: #fff;
-    font-family: 'YesevaOne';
-    font-size: 21px;
-}
-
-img.bookimg {
-    padding-top: 10%;
-    padding-left: 5%;
-    width: 20%;
-}
-
-div.formdiv {
-    display: inline-block;
-    width: 49%;
-    margin: 0%;
-}
-
-img.aboutDivider {
     text-align: center;
-    width: 30%;
-    margin-left: 35%;
 }
 
-div.ingimList {
-    padding-left: 25%;
-    width: 50%;
-}
-
-img.ingimage {
-    width: 32%;
-    display: inline-block;
-}
-
-section.ingredients {
+.about-us {
     display: flex;
-    background-image: url("E:/РПИ-Фоны-и-др/ingbg.png");
-    background-repeat: no-repeat;
-    /* height: 116.46%;  не считает*/
-    /*next time make it with %*/
+    flex-direction: column;
+    grid-column: 1;
 }
 
-div.ingContent {
-    display:block;
-    width: 35.625%;
-    height: 73.48%;
-    margin: 6.25% 13.4375% 6.25% 50.8125%;
-    background-image: url("E:/РПИ-Фоны-и-др/bgrevText.png");
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
 }
 
-section.bookFormSection {
-    background-image: url("E:/РПИ-Фоны-и-др/pattern.png");
-    background-color: #f5f5f5;
+.our-location{
+    display: flex;
+    flex-direction: column;
+    grid-column: 3;   
+}
+
+.opening-hour-images {
+    display: flex;
+    justify-content:space-around;
+    width: 150px;
+    position: relative;
+    left:25px;
+}
+
+.opening-hour-images img {
+    height: 16px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(326deg) brightness(100%) contrast(105%);
+}
+
+.our-location-images {
+    display: flex;
+    justify-content:space-around;
+    width: 100px;
+    position: relative;
+    left:50px;
+}
+
+.our-location-images img {
+    height: 16px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(326deg) brightness(100%) contrast(105%);
 }
