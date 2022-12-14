@@ -4,7 +4,7 @@ body {
 /* Header */
 
 header {
-    background-image: url(../РПИ-Фоны-и-др/images/BgTop.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/BgTop.png);
     height:750px;
 }
 
@@ -130,7 +130,7 @@ a:hover {
     height: 700px;
     align-items: center;
     justify-items: center;
-    background-image: url(..\РПИ-Фоны-и-др/images/Section_Background.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/Section_Background.png);
 }
 
 
@@ -176,7 +176,7 @@ a:hover {
 /* Ingrediedts-section */
 
 .ingredients {
-    background-image: url(../РПИ-Фоны-и-др/images/BgIng.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/BgIng.png);
     display: grid;
     grid-template-columns: 50% 550px 1fr;
     grid-template-rows: 1fr 500px 1fr;
@@ -241,7 +241,7 @@ a:hover {
     grid-template-rows: 100px 1fr 1fr 100px;
     grid-template-columns: 1fr 500px 1fr 500px 1fr;
     font-family: 'Lato', sans-serif;
-    background-image: url(../РПИ-Фоны-и-др/images/Section_Background_2.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/Section_Background_2.png);
     height: 1000px;
 }
 
@@ -316,7 +316,7 @@ a:hover {
 /* Guest Reviews */
 
 .guest-reviews {
-    background-image: url(../РПИ-Фоны-и-др/images/BgIng.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/BgIng.png);
     height: 750px;
     display: grid;
     grid-template-columns:1fr 800px 1fr;
@@ -359,7 +359,7 @@ a:hover {
     height: 700px;
     align-content: center;
     justify-content: center;
-    background-image: url(../РПИ-Фоны-и-др/images/Section_Background.png);
+    background-image: url(../web_page_lab_one_var_one/РПИ-Фоны-и-др/images/Section_Background.png);
 }
 
 .right-food-middle-item1{
